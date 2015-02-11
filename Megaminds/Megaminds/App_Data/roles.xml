@@ -1,0 +1,27 @@
+<credentials>
+  <credential>
+    <Username>nishant</Username>
+    <Password>agubqAjHlEPVp+hnMNhLzQ==</Password>
+    <Role>admin</Role>
+  </credential>
+  <credential>
+    <Username>nitesh</Username>
+    <Password>agubqAjHlEPVp+hnMNhLzQ==</Password>
+    <Role>member</Role>
+  </credential>
+  <credential>
+    <Username>prerna</Username>
+    <Password>agubqAjHlEPVp+hnMNhLzQ==</Password>
+    <Role>manager</Role>
+  </credential>
+  <credential>
+    <Username>TA</Username>
+    <Password>nhU5KIbLisc/s/9AanhT/g==</Password>
+    <Role>admin</Role>
+  </credential>
+  <credential>
+    <Username>cse</Username>
+    <Password>v90RdHt72OTxGTa75ovO1Q==</Password>
+    <Role>staff</Role>
+  </credential>
+</credentials>

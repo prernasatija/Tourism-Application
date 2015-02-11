@@ -1,0 +1,24 @@
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\bin\Megaminds.dll.config
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\bin\Megaminds.dll
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\bin\Megaminds.pdb
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\obj\Debug\Megaminds.csprojResolveAssemblyReference.cache
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\obj\Debug\Megaminds.dll
+C:\Users\Ishh\Documents\Visual Studio 2013\Projects\Megaminds\Megaminds\obj\Debug\Megaminds.pdb
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\bin\Megaminds.dll.config
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\bin\Megaminds.dll
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\bin\Megaminds.pdb
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\obj\Debug\Megaminds.csprojResolveAssemblyReference.cache
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\obj\Debug\Megaminds.dll
+C:\Users\Nitesh\Google Drive\3rd sem\DSOD\Megaminds\Megaminds\obj\Debug\Megaminds.pdb
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\bin\Megaminds.dll.config
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\bin\Megaminds.dll
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\bin\Megaminds.pdb
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\obj\Debug\Megaminds.dll
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\obj\Debug\Megaminds.pdb
+C:\Users\Ishh\Documents\Visual Studio 2013\Megaminds\Megaminds\Megaminds\obj\Debug\Megaminds.csprojResolveAssemblyReference.cache
+C:\Users\Nitesh\Downloads\Megaminds\bin\Megaminds.dll.config
+C:\Users\Nitesh\Downloads\Megaminds\bin\Megaminds.dll
+C:\Users\Nitesh\Downloads\Megaminds\bin\Megaminds.pdb
+C:\Users\Nitesh\Downloads\Megaminds\obj\Debug\Megaminds.csprojResolveAssemblyReference.cache
+C:\Users\Nitesh\Downloads\Megaminds\obj\Debug\Megaminds.dll
+C:\Users\Nitesh\Downloads\Megaminds\obj\Debug\Megaminds.pdb

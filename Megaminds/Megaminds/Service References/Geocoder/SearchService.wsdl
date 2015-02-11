@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SearchService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://webstrar39.fulton.asu.edu/Page8/Search.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://webstrar39.fulton.asu.edu/Page8/Search.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISearch_GetNearestStore_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNearestStore" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetNearestStore_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNearestStoreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_SearchFor_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchFor" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_SearchFor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchForResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetEmergencyServices_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmergencyServices" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetEmergencyServices_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmergencyServicesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetNaturalHazards_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalHazards" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetNaturalHazards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalHazardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetGeocodeFromCityName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeocodeFromCityName" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetGeocodeFromCityName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeocodeFromCityNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetGeocodeFromZipCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeocodeFromZipCode" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetGeocodeFromZipCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeocodeFromZipCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetZipCodeFromGeocode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetZipCodeFromGeocode" />
+  </wsdl:message>
+  <wsdl:message name="ISearch_GetZipCodeFromGeocode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetZipCodeFromGeocodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISearch">
+    <wsdl:operation name="GetNearestStore">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetNearestStore" message="tns:ISearch_GetNearestStore_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetNearestStoreResponse" message="tns:ISearch_GetNearestStore_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchFor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/SearchFor" message="tns:ISearch_SearchFor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/SearchForResponse" message="tns:ISearch_SearchFor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmergencyServices">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetEmergencyServices" message="tns:ISearch_GetEmergencyServices_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetEmergencyServicesResponse" message="tns:ISearch_GetEmergencyServices_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalHazards">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetNaturalHazards" message="tns:ISearch_GetNaturalHazards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetNaturalHazardsResponse" message="tns:ISearch_GetNaturalHazards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeocodeFromCityName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetGeocodeFromCityName" message="tns:ISearch_GetGeocodeFromCityName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetGeocodeFromCityNameResponse" message="tns:ISearch_GetGeocodeFromCityName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeocodeFromZipCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetGeocodeFromZipCode" message="tns:ISearch_GetGeocodeFromZipCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetGeocodeFromZipCodeResponse" message="tns:ISearch_GetGeocodeFromZipCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZipCodeFromGeocode">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISearch/GetZipCodeFromGeocode" message="tns:ISearch_GetZipCodeFromGeocode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISearch/GetZipCodeFromGeocodeResponse" message="tns:ISearch_GetZipCodeFromGeocode_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISearch" type="tns:ISearch">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNearestStore">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetNearestStore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchFor">
+      <soap:operation soapAction="http://tempuri.org/ISearch/SearchFor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmergencyServices">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetEmergencyServices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalHazards">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetNaturalHazards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeocodeFromCityName">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetGeocodeFromCityName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeocodeFromZipCode">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetGeocodeFromZipCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipCodeFromGeocode">
+      <soap:operation soapAction="http://tempuri.org/ISearch/GetZipCodeFromGeocode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SearchService">
+    <wsdl:port name="BasicHttpBinding_ISearch" binding="tns:BasicHttpBinding_ISearch">
+      <soap:address location="http://webstrar39.fulton.asu.edu/Page8/Search.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

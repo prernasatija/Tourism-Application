@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="009eecee-8f1e-4359-a297-3f387bcbfade" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webstrar39.fulton.asu.edu/Page8/Search.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Search.xsd" MetadataType="Schema" ID="b1cd414f-24b2-459a-9412-149f21119ab7" SourceId="1" SourceUrl="http://webstrar39.fulton.asu.edu/Page8/Search.svc?xsd=xsd0" />
+    <MetadataFile FileName="Search1.xsd" MetadataType="Schema" ID="2f47e828-9eba-4b17-825a-9186906eb925" SourceId="1" SourceUrl="http://webstrar39.fulton.asu.edu/Page8/Search.svc?xsd=xsd1" />
+    <MetadataFile FileName="SearchService.wsdl" MetadataType="Wsdl" ID="a2fc0570-3c0b-40e6-b8fb-594dbb264148" SourceId="1" SourceUrl="http://webstrar39.fulton.asu.edu/Page8/Search.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
